@@ -17,3 +17,4 @@ results/*.pkl
 # OS
 .DS_Store
 Thumbs.db
+__pycache__/
