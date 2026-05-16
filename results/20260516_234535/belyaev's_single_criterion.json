@@ -1,0 +1,52 @@
+{
+  "claim": "Belyaev's Single Criterion",
+  "outcome": "INCONCLUSIVE",
+  "confidence": 0.1,
+  "evidence": [
+    {
+      "test": "criterion_count_comparison",
+      "data": {
+        "0": {
+          "primary_convergence_iterations": 498.55909670422074,
+          "secondary_adaptations": 2,
+          "path_diversity": 0.6891769713312099,
+          "invariant_count": 10
+        },
+        "1": {
+          "primary_convergence_iterations": 468.2709639966848,
+          "secondary_adaptations": 28,
+          "path_diversity": 0.17495619188927397,
+          "invariant_count": 3
+        },
+        "3": {
+          "primary_convergence_iterations": 407.6820713916198,
+          "secondary_adaptations": 11,
+          "path_diversity": 0.571412547100727,
+          "invariant_count": 0
+        },
+        "5": {
+          "primary_convergence_iterations": 349.9219762695449,
+          "secondary_adaptations": 7,
+          "path_diversity": 0.22438359984942524,
+          "invariant_count": 5
+        }
+      }
+    },
+    {
+      "test": "farm_vs_forest",
+      "data": {
+        "farm_secondary": 28,
+        "forest_secondary": 26,
+        "forest_noise_ratio": 0.33709833735205913,
+        "signal_reduced": 2
+      }
+    }
+  ],
+  "metadata": {
+    "simulation": true,
+    "seed": 42,
+    "iterations": 200
+  },
+  "timestamp": 1778975135.722952,
+  "notes": "Simulation mode. Requires live agent deployment for conclusive results."
+}

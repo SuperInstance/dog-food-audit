@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Audit results are tracked (they're the output of the repo)
+# But individual experiment data can be large
+results/*.csv
+results/*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
