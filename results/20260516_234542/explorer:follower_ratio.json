@@ -1,0 +1,83 @@
+{
+  "claim": "Explorer:Follower Ratio",
+  "outcome": "INCONCLUSIVE",
+  "confidence": 0.1,
+  "evidence": [
+    {
+      "test": "ratio_comparison",
+      "data": {
+        "0": {
+          "explorers": 0,
+          "followers": 100,
+          "paths_discovered": 0,
+          "exploitation_rate": 0.0,
+          "total_throughput": 0.0,
+          "space_coverage_pct": 0.0
+        },
+        "1": {
+          "explorers": 1,
+          "followers": 99,
+          "paths_discovered": 60,
+          "exploitation_rate": 47.5,
+          "total_throughput": 107.5,
+          "space_coverage_pct": 6.0
+        },
+        "5": {
+          "explorers": 5,
+          "followers": 95,
+          "paths_discovered": 300,
+          "exploitation_rate": 76.0,
+          "total_throughput": 376.0,
+          "space_coverage_pct": 30.0
+        },
+        "20": {
+          "explorers": 20,
+          "followers": 80,
+          "paths_discovered": 1000,
+          "exploitation_rate": 64.0,
+          "total_throughput": 1064.0,
+          "space_coverage_pct": 100.0
+        },
+        "50": {
+          "explorers": 50,
+          "followers": 50,
+          "paths_discovered": 1000,
+          "exploitation_rate": 40.0,
+          "total_throughput": 1040.0,
+          "space_coverage_pct": 100.0
+        },
+        "80": {
+          "explorers": 80,
+          "followers": 20,
+          "paths_discovered": 1000,
+          "exploitation_rate": 16.0,
+          "total_throughput": 1016.0,
+          "space_coverage_pct": 100.0
+        },
+        "100": {
+          "explorers": 100,
+          "followers": 0,
+          "paths_discovered": 1000,
+          "exploitation_rate": 0.0,
+          "total_throughput": 1000.0,
+          "space_coverage_pct": 100.0
+        }
+      }
+    },
+    {
+      "test": "optimum_identification",
+      "data": {
+        "predicted_optimum": 5,
+        "observed_optimum": 20,
+        "ratio_stability": "TBD"
+      }
+    }
+  ],
+  "metadata": {
+    "simulation": true,
+    "seed": 42,
+    "iterations": 200
+  },
+  "timestamp": 1778975142.4736128,
+  "notes": "Simulation suggests 5% explorers may be optimal, but requires validation with real agent behavior. Also needs problem maturity sensitivity test."
+}
