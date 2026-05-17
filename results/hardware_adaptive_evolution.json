@@ -1,0 +1,59 @@
+{
+  "adaptive_speedup": {
+    "results": [
+      {
+        "run": 0,
+        "static_convergence": 200,
+        "adaptive_convergence": 200,
+        "speedup": 1.0,
+        "hardware_profile": {
+          "type": "mixed",
+          "parallel_potential": "medium",
+          "strategy": "adaptive_mix",
+          "splits": 4
+        },
+        "strategy_used": "adaptive_mix"
+      },
+      {
+        "run": 1,
+        "static_convergence": 200,
+        "adaptive_convergence": 200,
+        "speedup": 1.0,
+        "hardware_profile": {
+          "type": "mixed",
+          "parallel_potential": "medium",
+          "strategy": "adaptive_mix",
+          "splits": 4
+        },
+        "strategy_used": "adaptive_mix"
+      },
+      {
+        "run": 2,
+        "static_convergence": 200,
+        "adaptive_convergence": 200,
+        "speedup": 1.0,
+        "hardware_profile": {
+          "type": "mixed",
+          "parallel_potential": "medium",
+          "strategy": "adaptive_mix",
+          "splits": 4
+        },
+        "strategy_used": "adaptive_mix"
+      }
+    ],
+    "avg_speedup": 1.0,
+    "adaptive_wins": 0
+  },
+  "learning_curve": {
+    "convergence_gens": [
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "early_avg": 200.0,
+    "late_avg": 200.0,
+    "learning_improvement": 1.0
+  }
+}
